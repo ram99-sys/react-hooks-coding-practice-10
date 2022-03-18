@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.todos-app-container {
+  background-color: #ffc2a0;
+  width: 60vw;
+  padding: 80px 50px 80px 50px;
+}
+.app-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+}
+.heading {
+  font-size: 50px;
+  text-align: center;
+  color: #ff8542;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .todos-app-container {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .todos-app-container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .todos-app-container {
+    width: 98vw;
+    padding: 30px;
+  }
+  .app-container {
+    padding: 10px;
+  }
+}
